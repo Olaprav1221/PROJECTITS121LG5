@@ -193,6 +193,13 @@ input[type="submit"] { { /* DONT TOUCH EXPECT BACKGROUND-COLOR AND COLOR */
   background-color: rgba(159, 159, 161); 
   color: white;
 }
+ .checkbox-inline {
+            display: inline-block;
+            padding-left: 20px;
+            margin-bottom: 0;
+            font-weight: 400;
+            cursor: pointer;
+        }
   </style>
 
 </head>
@@ -233,9 +240,17 @@ input[type="submit"] { { /* DONT TOUCH EXPECT BACKGROUND-COLOR AND COLOR */
         <input type="email" id="email" name="email" style="width:1200px;"><br>
         <label for="message">Message:</label><br>
         <textarea id="message" name="message"></textarea><br><br>
+	<p> Select for which cars would you like to inquire about:</p>
+		<label class="checkbox-inline"><input type="checkbox" value="">Volkswagen</label>
+	        <label class="checkbox-inline"><input type="checkbox" value="">Lamborghini</label>
+	        <label class="checkbox-inline"><input type="checkbox" value="">Audi</label>
+	        <label class="checkbox-inline"><input type="checkbox" value="">Bentley</label>
+	        <label class="checkbox-inline"><input type="checkbox" value="">Bugatti</label>
+	        <label class="checkbox-inline"><input type="checkbox" value="">Skoda</label>
+	        <label class="checkbox-inline"><input type="checkbox" value="">Porsche</label>
         <input type="submit" value="Submit">
     </form>
-		</div>
+</div>
 <br>
 <hr>
 <br>
